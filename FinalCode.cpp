@@ -120,7 +120,7 @@ int main()
         if (i==1)
         {
             ///Play Music
-            PlaySound(TEXT("CockFight.wav"), NULL, SND_FILENAME | SND_ASYNC);
+            PlaySound(TEXT("CockFight.mp3"), NULL, SND_FILENAME | SND_ASYNC);
 
             cout << "\t\tWelcome" << endl << endl;
             startup_menu();
@@ -135,7 +135,7 @@ int main()
     if (i==1)
     {
         ///Play Music
-        PlaySound(TEXT("CockFight.wav"), NULL, SND_FILENAME | SND_ASYNC);
+        PlaySound(TEXT("CockFight.mp3"), NULL, SND_FILENAME | SND_ASYNC);
 
         cout << "\t\tWelcome" << endl << endl;
         startup_menu();
@@ -406,7 +406,7 @@ void gamming()
             cout << endl << endl;
 
             ///Play Music
-            PlaySound(TEXT("CockFight.wav"), NULL, SND_FILENAME | SND_ASYNC);
+            PlaySound(TEXT("CockFight.mp3"), NULL, SND_FILENAME | SND_ASYNC);
             startup_menu();
         }
     }
